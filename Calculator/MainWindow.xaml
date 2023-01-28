@@ -1,0 +1,39 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="600" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="inputText" Text="0" Height="28" Width="226" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,10,0,0" Background="#FFE3E3E3" IsEnabled="False" TextAlignment="Right" BorderThickness="2,2,2,2" FontSize="16" FontWeight="Bold"/>
+        <Button Content="7" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,104,0,0" Click="Button_Click"/>
+        <Button Content="8" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,104,0,0" Click="Button_Click"/>
+        <Button Content="9" Height="50" Width="50" VerticalAlignment="Top" Margin="132,104,0,0" HorizontalAlignment="Left" Click="Button_Click"/>
+        <Button Content="4" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,159,0,0" Click="Button_Click" RenderTransformOrigin="0.528,2.003"/>
+        <Button Content="5" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,159,0,0" Click="Button_Click" RenderTransformOrigin="0.164,0.374"/>
+        <Button Content="6" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,159,0,0" Click="Button_Click" RenderTransformOrigin="2.757,1.704"/>
+        <Button Content="1" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,214,0,0" Click="Button_Click" RenderTransformOrigin="0.459,2.899"/>
+        <Button Content="2" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,214,0,0" Click="Button_Click" RenderTransformOrigin="1.539,2.83"/>
+        <Button Content="3" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="131,214,0,0" Click="Button_Click" RenderTransformOrigin="2.826,2.738"/>
+        <Button Content="7" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,104,0,0" Click="Button_Click" RenderTransformOrigin="4.068,2.256"/>
+        <Button Content="X" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="189,104,0,0" Click="Button_Click" RenderTransformOrigin="3.861,0.623"/>
+        <Button Content="-" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="189,159,0,0" Click="Button_Click" RenderTransformOrigin="3.838,1.612"/>
+        <Button Content="+" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="189,214,0,0" Click="Button_Click" RenderTransformOrigin="3.838,2.646"/>
+        <Button Content="0" Height="50" Width="106" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,269,0,0" Click="Button_Click" RenderTransformOrigin="0.482,3.715"/>
+        <Button Content="." Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,269,0,0" Click="Button_Click" RenderTransformOrigin="2.056,2.55"/>
+        <Button Content="=" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="189,269,0,0" Click="Button_Click" RenderTransformOrigin="3.838,3.773"/>
+        <Button Content="AC" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,47,0,0" Click="Button_Click" RenderTransformOrigin="1.769,0.531"/>
+        <Button Content="+/-" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,47,0,0" Click="Button_Click" RenderTransformOrigin="2.643,0.508"/>
+        <Button Content="%" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,47,0,0" Click="Button_Click" RenderTransformOrigin="2.666,0.554"/>
+        <Button Content="/" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="187,47,0,0" Click="Button_Click" RenderTransformOrigin="3.861,0.623"/>
+
+    </Grid>
+</Window>
+
+
